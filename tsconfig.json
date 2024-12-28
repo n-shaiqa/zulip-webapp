@@ -1,0 +1,47 @@
+{
+    "compilerOptions": {
+        /* Type Checking */
+        "exactOptionalPropertyTypes": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitOverride": true,
+        "noImplicitReturns": true,
+        "noUncheckedIndexedAccess": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "strict": true,
+
+        /* Modules */
+        "allowImportingTsExtensions": true,
+        "module": "preserve",
+        "moduleResolution": "bundler",
+        "paths": {
+            "*": ["./web/src/types/*"],
+        },
+        "resolveJsonModule": true,
+        "types": ["@types/jquery.validation"],
+
+        /* Emit */
+        "noEmit": true,
+
+        /* Interop Constraints */
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "verbatimModuleSyntax": true,
+
+        /* Language and Environment */
+        "target": "ESNext",
+
+        /* Projects */
+        "composite": true,
+    },
+    "exclude": [
+        // This is a separate package with its own TypeScript configuration.
+        "help-beta",
+
+        // Skip walking large generated directories.
+        "docs/_build",
+        "static/webpack-bundles",
+        "var",
+        "zulip-py3-venv",
+    ],
+}

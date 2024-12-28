@@ -1,0 +1,11 @@
+.user-circle-active {
+    color: var(--color-user-circle-active);
+}
+
+.user-circle-idle {
+    color: var(--color-user-circle-idle);
+}
+
+.user-circle-offline {
+    color: var(--color-user-circle-offline);
+}

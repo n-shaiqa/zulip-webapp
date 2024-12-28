@@ -1,0 +1,69 @@
+.message-edit-history-container {
+    .header-body {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 5px;
+
+        @media (width < $lg_min) {
+            display: block;
+        }
+    }
+
+    .message-edit-history-list {
+        /*
+        styles are based on drafts-list
+        see web/styles/drafts.css
+        */
+        & h2 {
+            font-size: 1.1em;
+            line-height: normal;
+            margin-bottom: 5px;
+        }
+    }
+
+    .message_edit_history_content {
+        .highlight_text_inserted {
+            color: var(--color-message-edit-history-text-inserted);
+            background-color: var(
+                --color-message-edit-history-background-inserted
+            );
+        }
+
+        .highlight_text_deleted {
+            color: var(--color-message-edit-history-text-deleted);
+            background-color: var(
+                --color-message-edit-history-background-deleted
+            );
+            text-decoration: line-through;
+            word-break: break-all;
+        }
+    }
+
+    .messagebox-content {
+        display: block !important;
+
+        .message_content {
+            cursor: default !important;
+        }
+    }
+
+    #message-history-error {
+        /*
+        styles are based on .model_content
+        see web/styles/modal.css
+        */
+        font-size: 1rem;
+        display: none;
+        margin: 10px;
+    }
+
+    .overlay_loading_indicator_style {
+        width: 100% !important;
+        height: 100% !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

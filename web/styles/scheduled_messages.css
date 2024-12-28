@@ -1,0 +1,16 @@
+#scheduled_messages_overlay_container {
+    .no-overlay-messages {
+        display: none;
+
+        &:only-child {
+            display: block;
+        }
+    }
+}
+
+#scheduled_message_indicator {
+    display: block;
+    margin-left: 10px;
+    font-style: italic;
+    color: hsl(0deg 0% 53%);
+}
