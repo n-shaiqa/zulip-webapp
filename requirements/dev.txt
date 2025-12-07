@@ -2133,7 +2133,7 @@ pathspec==0.12.1 \
     --hash=sha256:a0d503e138a4c123b27490a4f7beda6a01c6f288df0e4a8b79c7eb0dc7b4cc08 \
     --hash=sha256:a482d51503a1ab33b1c67a6c3813a26953dbdc71c31dacaef9a838c4e29f5712
     # via black
-peewee==3.17.8 \
+peewee==3.18.3 \
     --hash=sha256:ce1d05db3438830b989a1b9d0d0aa4e7f6134d5f6fd57686eeaa26a3e6485a8c
     # via semgrep
 pep517==0.13.1 \
@@ -3251,7 +3251,7 @@ sqlalchemy2-stubs==0.0.2a38 \
     --hash=sha256:861d722abeb12f13eacd775a9f09379b11a5a9076f469ccd4099961b95800f9e \
     --hash=sha256:b62aa46943807287550e2033dafe07564b33b6a815fbaa3c144e396f9cc53bcb
     # via sqlalchemy
-sqlparse==0.5.3 \
+sqlparse==0.5.4 \
     --hash=sha256:09f67787f56a0b16ecdbde1bfc7f5d9c3371ca683cfeaa8e6ff60b4807ec9272 \
     --hash=sha256:cf2196ed3418f3ba5de6af7e82c694a9fbdbfecccdfc72e281548517081f16ca
     # via django
