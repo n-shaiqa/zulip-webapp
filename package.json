@@ -54,7 +54,7 @@
     "js-cookie": "^3.0.1",
     "katex": "^0.16.2",
     "koa": "^2.15.0",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.23",
     "micromodal": "^0.4.6",
     "mini-css-extract-plugin": "^2.2.2",
     "minimalistic-assert": "^1.0.1",
